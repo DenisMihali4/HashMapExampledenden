@@ -63,6 +63,8 @@ public class SimpleDirectory extends AbstractFile implements MyDirectory {
                     internals.add(dir);
                 } else {
                     internals.add(new TextFile(file));
+                    System.out.println(file);
+                    
                 }
             }
         }

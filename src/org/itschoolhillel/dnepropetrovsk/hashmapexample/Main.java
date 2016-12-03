@@ -12,9 +12,9 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-//        InputFile inputFile = new InputFile("./resources/input.txt");
-//        inputFile.read();
-//        inputFile.print();
+        InputFile inputFile = new InputFile("./resources/");
+        inputFile.read();
+        inputFile.print();
 
         MyDirectory dir = new SimpleDirectory("./resources", null);
         dir.init();
